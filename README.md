@@ -14,6 +14,7 @@ This application simulates a financial services onboarding flow where users subm
 ### Frontend
 - Real-time validation with visual feedback (green/red borders)
 - Input restrictions preventing invalid characters (numbers-only for SSN/phone, letters-only for names)
+- Age verification (must be 18+)
 - Client-side validation before API submission
 - Form reset after submission
 - Responsive design
@@ -21,6 +22,7 @@ This application simulates a financial services onboarding flow where users subm
 ### Backend
 - Dual-layer validation (frontend + backend for security)
 - Rate limiting (5 requests per minute per IP)
+- Age verification (must be 18+)
 - Comprehensive error handling with user-friendly messages
 - Structured logging for debugging
 - CORS configuration
